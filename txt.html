@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <div ></div>
+    <textarea rows="25" cols="25" id="text"></textarea>
+    
+    <button onclick="cal()">CALCULATE</button>
+    <P id="jhgd"></P>
+    <script>
+        function cal(){
+            var th= document.getElementById('text').value;
+            var lh = th.split(' ');
+            var ha = lh.length;
+            document.getElementById('jhgd').innerHTML="Total Word ="+ha;
+        }
+    </script>
+</body>
+</html>
